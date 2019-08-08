@@ -21,6 +21,9 @@ namespace SimpleAPI.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
+            if(id==0){
+                return "RVZ";
+            }
             return "RVZ";
         }
 

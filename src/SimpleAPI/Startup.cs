@@ -41,6 +41,7 @@ namespace SimpleAPI
                 app.UseHsts();
             }
 
+            //testing azure push <-- just redom comment.
             app.UseHttpsRedirection();
             app.UseMvc();
         }
